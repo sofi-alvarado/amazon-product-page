@@ -1,15 +1,39 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
     font-weight: lighter;
 }
 
-.main-img {
-    box-shadow: 0px 2px 5px lightgray;
-}
+
 
 .container {
     display: flex;
+    margin: 20px;
+}
+
+.book-img {
+    max-width: 500px;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.cover-book-section {
+    margin: 20px;
+}
+
+.rating-img {
+    width: 150px;
+}
+
+a {
+    color: #007185;
+}
+
+.breadcrumb {
+    color: #565959;
+}
+
+p {
+    font-weight: light;
 }
